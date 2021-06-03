@@ -26,8 +26,26 @@
         <input type="radio" name="rate" id="rate-1">
         <label for="rate-1" class="fas fa-star"></label>
 
+
+
     </div>
     </div>
+
     
+    
+    <script>
+      
+    let container = document.querySelector("body");
+
+    container.addEventListener("click", (evento)=> {
+    if(!evento.target.classList.contains(".fas fa-star")){
+       window.alert("hola")
+    }
+});
+
+
+    </script>
+
+
 </body>
 </html>
